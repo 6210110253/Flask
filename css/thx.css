@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://image.freepik.com/free-vector/hand-drawn-minimal-background_23-2149017008.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+    text-align: center;
+    padding-top: 9%;
+}
+
+button {
+    background-color: whitesmoke; /* Green */
+    border: none;
+    color: black;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
+

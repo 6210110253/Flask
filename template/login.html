@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+      <header>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/login.css') }}">
+      </header>
+         <body>
+            <div class="login-html">
+               <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">block</label>
+               <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab"></label>
+               <div class="login-form">
+                  <div class="sign-in-htm">
+                     <form action = "/thx" method = "post">
+                        <div class="group">
+                           <label for="user" class="label">Username</label>
+                           <input id="user" type="text" name="nm" class="input" >
+                        </div>
+                        <div class="group">
+                           <label for="message" class="label">Message</label>
+                           <input id="message" type="text" class="input">
+                        </div>                  
+                        <div class="group">
+                              <input type="submit" class="button" value="SEND">      
+                        </div>
+                     </form>  
+                  </div>
+               </div>
+         </body>
+   </html>
+</html>
